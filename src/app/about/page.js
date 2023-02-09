@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className=" max-w-6xl mx-auto space-y-4 ">
+    <div className=" max-w-6xl mx-auto px-14  space-y-4 ">
       <h1 className=" text-2xl font-medium text-amber-600 "> About </h1>
       <p>
         Welcome to our movie database website! We are a team of passionate movie
