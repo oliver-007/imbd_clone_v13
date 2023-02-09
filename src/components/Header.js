@@ -13,7 +13,7 @@ const Header = () => {
       </div>
       <div className=" flex items-center space-x-5 ">
         <DarkMode />
-        <Link href={`/`}>
+        <Link href="/">
           <h2 href="/">
             <span className="uppercase font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1 ">
               imdb
