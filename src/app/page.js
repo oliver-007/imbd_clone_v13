@@ -17,7 +17,7 @@ const Page = async ({ searchParams }) => {
 
   const data = await res.json();
 
-  const results = data.results;
+  const results = await data.results;
 
   return (
     <div className="px-14 ">
